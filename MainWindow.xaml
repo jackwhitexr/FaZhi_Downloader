@@ -1,0 +1,35 @@
+﻿<Window x:Class="FaZhi_Downloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="法律365下载器" Height="374" Width="297" ResizeMode="NoResize"
+        Background="WhiteSmoke" >
+    <Grid Margin="0,0,0,0" Height="347" VerticalAlignment="Top">
+        <StatusBar HorizontalAlignment="Left" Height="33" Margin="0,307,0,0" VerticalAlignment="Top" Width="290">
+            <Label Name="status_txt" Content="提示栏" Height="33" Width="280"/>
+        </StatusBar>
+        <Border BorderBrush="Gray" BorderThickness="0.3" HorizontalAlignment="Left" Height="94" Margin="10,24,0,0" VerticalAlignment="Top" Width="261">
+            <Label Content="选择保存位置："/>
+        </Border>
+        <Border BorderBrush="Gray" BorderThickness="0.3" HorizontalAlignment="Left" Height="106" Margin="10,138,0,0" VerticalAlignment="Top" Width="261">
+            <Label Content="选择下载时段："/>
+        </Border>
+        <Button Name="downLoad_btn" Content="下载" HorizontalAlignment="Left" Margin="167,267,0,0" VerticalAlignment="Top" Width="75" Click="downLoad_btn_Click"/>
+        <DatePicker Name="fromDate_cal" HorizontalAlignment="Left" Margin="34,172,0,0" VerticalAlignment="Top" IsTodayHighlighted="True" Width="100" />
+        <Label Content="从" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" Width="24" RenderTransformOrigin="-0.125,-0.102"/>
+        <Label Content="到" HorizontalAlignment="Left" Margin="139,170,0,0" VerticalAlignment="Top" Width="24"/>
+        <DatePicker Name="toDate_cal" HorizontalAlignment="Left" Margin="160,172,0,0" VerticalAlignment="Top" IsTodayHighlighted="True" Width="111"/>
+        <Label Name="chooseAns_txt" Content="..." HorizontalAlignment="Left" Margin="17,210,0,0" VerticalAlignment="Top" Width="263"/>
+        <Label Name="location_txt" Content="" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="261"/>
+        <Button Name="choose_btn" Content="选择..." HorizontalAlignment="Left" Margin="120,27,0,0" VerticalAlignment="Top" Width="75" Click="choose_btn_Click"/>
+        <Button Name="confirm_btn" Content="确定日期" HorizontalAlignment="Left" Margin="59,267,0,0" VerticalAlignment="Top" Width="75" Click="confirm_btn_Click"/>
+        <DockPanel HorizontalAlignment="Left" Height="19" LastChildFill="False" VerticalAlignment="Top" Width="290">
+            <Menu Height="19" VerticalAlignment="Top" Width="292">
+                <MenuItem Name="help_mnu" Header="选项" >
+                    <MenuItem Header="帮助"></MenuItem>
+                    <MenuItem Header="关于"></MenuItem>
+                    <MenuItem Header="退出"></MenuItem>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+    </Grid>
+</Window>

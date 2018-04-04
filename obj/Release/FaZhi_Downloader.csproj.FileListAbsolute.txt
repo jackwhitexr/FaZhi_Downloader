@@ -1,0 +1,13 @@
+G:\code\C#\FaZhi_Downloader\bin\Release\FaZhi_Downloader.exe.config
+G:\code\C#\FaZhi_Downloader\bin\Release\FaZhi_Downloader.exe
+G:\code\C#\FaZhi_Downloader\bin\Release\FaZhi_Downloader.pdb
+G:\code\C#\FaZhi_Downloader\obj\Release\MainWindow.baml
+G:\code\C#\FaZhi_Downloader\obj\Release\MainWindow.g.cs
+G:\code\C#\FaZhi_Downloader\obj\Release\App.g.cs
+G:\code\C#\FaZhi_Downloader\obj\Release\FaZhi_Downloader_MarkupCompile.cache
+G:\code\C#\FaZhi_Downloader\obj\Release\FaZhi_Downloader.g.resources
+G:\code\C#\FaZhi_Downloader\obj\Release\FaZhi_Downloader.Properties.Resources.resources
+G:\code\C#\FaZhi_Downloader\obj\Release\FaZhi_Downloader.csproj.GenerateResource.Cache
+G:\code\C#\FaZhi_Downloader\obj\Release\FaZhi_Downloader.exe
+G:\code\C#\FaZhi_Downloader\obj\Release\FaZhi_Downloader.pdb
+G:\code\C#\FaZhi_Downloader\obj\Release\FaZhi_Downloader.csprojResolveAssemblyReference.cache
